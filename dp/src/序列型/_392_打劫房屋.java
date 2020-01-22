@@ -40,5 +40,4 @@ public class _392_打劫房屋 {
         }
         return dp[n];
     }
-
 }

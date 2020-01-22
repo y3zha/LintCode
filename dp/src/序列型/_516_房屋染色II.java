@@ -20,7 +20,6 @@ public class _516_房屋染色II {
         for (int i = 0; i < m; i++) {
             dp[0][i] = 0;
         }
-
         //记录最小值和次小值以及它们的下标
         int min1, min2;
         int id1 = 0, id2 = 0;

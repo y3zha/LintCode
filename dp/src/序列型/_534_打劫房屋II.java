@@ -17,7 +17,7 @@ public class _534_打劫房屋II {
         // 去头
         int[] arr1 = Arrays.stream(nums).skip(1).toArray();
         int res1 = helper(arr1);
-        //去尾巴
+        //去尾巴 limit限制输出数量
         int[] arr2 = Arrays.stream(nums).limit(nums.length - 1).toArray();
         int res2 = helper(arr2);
         return Math.max(res1, res2);

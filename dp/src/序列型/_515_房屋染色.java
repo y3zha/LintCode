@@ -41,5 +41,4 @@ public class _515_房屋染色 {
         }
         return min;
     }
-
 }
