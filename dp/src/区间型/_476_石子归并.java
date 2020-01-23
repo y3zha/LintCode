@@ -77,6 +77,7 @@ public class _476_石子归并 {
         return dp[0][n - 1];
     }
 
+    //由于要左右家和，所以肯定要返回值，和分治思路一样，分治肯定要有返回值。如果不需要分治，比如最长回文子串那题，就可以void
     private int dfs(int[][] dp, int[] sum, int i, int j) {
         //递归出口
         if (dp[i][j] != -1) {
