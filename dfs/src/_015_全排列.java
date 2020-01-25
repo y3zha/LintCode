@@ -17,6 +17,7 @@ public class _015_全排列 {
     private void dfs(int[] nums, ArrayList<Integer> list, List<List<Integer>> res, boolean[] visited) {
         if (list.size() == nums.length) {
             res.add(new ArrayList<>(list));
+            return;
         }
         for (int i = 0; i < nums.length; i++) {
             if (!visited[i]) {
